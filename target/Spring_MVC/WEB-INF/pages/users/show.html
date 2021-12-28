@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Человек</title>
+</head>
+<body>
+<table border="1">
+    <tr align="center">
+        <td width="25">ID</td>
+        <td width="80">Name</td>
+        <td width="40">Age</td>
+    </tr>
+    <tr  align="center">
+        <td th:text="${user.getId()}">id</td>
+        <td th:text="${user.getName()}">id</td>
+        <td th:text="${user.getAge()}">id</td>
+    </tr>
+</table>
+</body>
+</html>
